@@ -104,12 +104,11 @@ const toggleCreateAccount = () => {
 
 .faq {
   width: 100%;
-  height: 59.375rem;
+  height: auto;
   position: absolute;
   top: 17.3125rem;
   padding-left: 1.875rem;
   padding-right: 1.875rem;
-  overflow-y: scroll;
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -132,6 +131,7 @@ const toggleCreateAccount = () => {
 }
 
 .pakages {
+  
   width: 92.375rem;
   height: 84.25rem;
   position: absolute;
@@ -188,7 +188,10 @@ const toggleCreateAccount = () => {
 }
 
 .container {
-  width: calc(100% - 2.5rem);
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  width: 99w;
   margin: 0 auto;
   height: 304.5625rem;
 }
@@ -285,6 +288,111 @@ const toggleCreateAccount = () => {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 768px) {
+  .scopeimg .text {
+    top: 15rem;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+  }
+
+  .txtone {
+    font-size: 2rem;
+  }
+
+  .txttwo {
+    font-size: 1.25rem;
+  }
+
+  .scopeimg button {
+    width: 8rem;
+    height: 2rem;
+    font-size: 0.875rem;
+  }
+
+  .important span {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  .pakages {
+    width: 100%;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .pakagelineone,
+  .pakagelinetwo {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .wide {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    width: 100%;
+  }
+}
+
+/* التوافق مع الشاشات المتوسطة */
+@media (max-width: 1024px) {
+  .scopeimg .text {
+    top: 20rem;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .txtone {
+    font-size: 2.25rem;
+  }
+
+  .txttwo {
+    font-size: 1.5rem;
+  }
+
+  .pakagelineone,
+  .pakagelinetwo {
+    gap: 1rem;
+  }
+}
+
+/* تصحيحات عامة */
+.bodyimg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.hosbitalimg,
+.lastimg {
+  width: 100%;
+  height: auto;
+}
+
+.hosimg,
+.last {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.creatacount {
+  padding: 1rem;
+  overflow: auto;
+}
+
+.x {
+  width: 3rem;
+  height: 3rem;
+}
+
+.faq {
+  padding: 1rem;
+  height: auto;
+  max-height: 50vh;
+  overflow-y: auto;
 }
 </style>
 

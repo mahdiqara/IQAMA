@@ -5,9 +5,7 @@
 
 <div class="pakagecontainer">
               <div class="top">
-                <span class="pakagepic"> <span>A</span></span>
                 <span class="pakagename">Medical Department</span>
-                <img class="threedots" src="../assets/threedots.svg" alt="">
               </div>
               <div class="pakageimage">
                 <img style="height: 188px;" src="../assets/pakageimg.svg" alt="">

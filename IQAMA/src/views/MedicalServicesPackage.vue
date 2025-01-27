@@ -27,7 +27,10 @@ import PakageThree2 from '../components/pakagethree2.vue';
 
 </template>
 <style scoped>
-
+.hosimg{
+    width: 100%;
+    height: 100%;
+}
 .name{
     font-family: Tajawal;
     font-size: 2.5rem;
@@ -51,9 +54,10 @@ import PakageThree2 from '../components/pakagethree2.vue';
 .container{
     width: 100%;
     display: flex;
-    align-items: start;
+    align-items: center;
     justify-content: center;
     max-height: 1250px;
+  
     
 }
 .hosbitalimg{
@@ -62,7 +66,7 @@ import PakageThree2 from '../components/pakagethree2.vue';
 }
 .pakages{
     width: 92.375rem;
-    height: 84.25rem;
+    height: 60.25rem;
     position: absolute;
     top: 7.8125rem;
     left: 11.8125rem;

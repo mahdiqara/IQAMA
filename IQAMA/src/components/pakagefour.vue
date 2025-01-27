@@ -7,19 +7,15 @@
 <div class="pakagecontainer">
 
 <div class="top">
-  <span class="pakagepic"> <span>A</span></span>
   <span class="pakagename">University Hospital Package</span>
-  <img class="threedots" src="../assets/threedots.svg" alt="">
 </div>
 <div class="pakageimage">
   <img style="height: 188px;" src="../assets/pakageimg.svg" alt="">
 
 </div>
 <div class="pakagenumber">
-  <p class="name">Questions from the University Hospital</p>
-  <p class="questions"> +1500 questions</p>
-  <p class="des">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-<button class="Preview">Preview</button>
+  <p class="name">Coming Soon</p>
+
 </div>
 
 </div>
@@ -35,7 +31,7 @@
   border-radius: 0.75rem;
   opacity: 0px;
   box-shadow: 0.125rem 0.1875rem 0.125rem 0px rgba(0, 0, 0, 1);
-  background: rgba(77, 153, 224, 1);
+  background: rgba(117, 117, 117, 1);
 }
 
 .Preview {
@@ -66,7 +62,7 @@
   text-align: right;
   text-underline-position: from-font;
   color: white;
-  font-size: 1.125rem;
+  font-size: 2.125rem;
 }
 
 .pakagenumber .questions {
